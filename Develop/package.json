@@ -1,14 +1,24 @@
 {
-  "name": "static-site",
+  "name": "eric",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Eric Furukawa",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "fs": "^0.0.1-security",
+    "inquirer": "^6.5.2"
+  },
+  "description": "readme generator",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricKenji/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EricKenji/readme-generator/issues"
+  },
+  "homepage": "https://github.com/EricKenji/readme-generator#readme"
 }
