@@ -32,13 +32,13 @@ const questions = () => {
         {
             type: 'input',
             name: 'test',
-            message: 'What are the test intructions?'
+            message: 'What are the test instructions?'
         },
         {
             type: 'checkbox',
-            name: 'languages',
-            message: 'What languages does the project use?',
-            choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+            name: 'license',
+            message: 'What licenses does the project use?',
+            choices: ['APM', 'Apache', 'GNU', 'MIT', 'Mozilla']
         },
         {
             type: 'input',
