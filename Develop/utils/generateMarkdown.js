@@ -39,6 +39,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Licenses
+  ${data.license}
 
   ## Questions/Contact
   If you have any questions you can email me or visit my GitHub via the links below:
@@ -52,4 +53,4 @@ function generateMarkdown(data) {
 `;
 }
 
-module.exports = generateMarkdown;
+module.exports = generateMarkdown
